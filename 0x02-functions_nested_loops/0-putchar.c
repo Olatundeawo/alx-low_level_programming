@@ -4,9 +4,9 @@
  *
  *Result: Always 0 (Success)
  */
- 
- int main(void)
- {
- putchar('_putchar');
- retur (0);
- }
+
+int main(void)
+{
+putchar('_putchar');
+return (0);
+}
