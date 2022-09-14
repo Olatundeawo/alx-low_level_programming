@@ -7,27 +7,22 @@
  *
  * Return: (0) always
  */
-	int main(void)
+int main(void)
+{
+	unsigned int a = 1;
+	unsigned int b = 2;
+	unsigned int c = 3;
+	unsigned int d = 2;
+	unsigned int s = 2;
+
+	for (d; d <= 32; d++)
 	{
-		unsigned long int a, b, c, d, s;
-    
-  a = 4000000;
-  b = 0;
-  c = 1;
-  d = 0;
-  s = 0;
-		while (a > d)
-		{
-			d = b + c;
-
-			if ((d % 2) == 0)
-			{
-				sum += d;
-			}
-
-			b = c;
-			c = d;
-		}
-		printf("%li\n", s);
-		return (0);
+		if (c % 2 == 0)
+			s = s + c;
+		a = b;
+		b = c;
+		c = a + b;
+	}
+	printf("%u\n", s);
+	return (0);
 }
