@@ -9,13 +9,13 @@
  */
 int main(void)
 {
-	unsigned int a = 1;
-	unsigned int b = 2;
-	unsigned int c = 3;
-	unsigned int d = 2;
-	unsigned int s = 2;
+	unsigned int a, b, c, d, s;
 
-	for (d; d <= 32; d++)
+	a = 1;
+	b = 2;
+	c = 3;
+	s = 2;
+	for (d = 2; d <= 32; d++)
 	{
 		if (c % 2 == 0)
 			s = s + c;
