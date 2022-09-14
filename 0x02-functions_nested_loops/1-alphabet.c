@@ -3,6 +3,8 @@
 /**
 * main - Entry point
 *
+*Description: printing the aiphabets in lower case
+*
 * Return: Always 0 (Success)
 */
 
