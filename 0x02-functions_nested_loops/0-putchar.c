@@ -3,6 +3,8 @@
 /**
  * main - Entry point
  *
+ * Description: print a character
+ *
  *Result: Always 0 (Success)
  */
 
