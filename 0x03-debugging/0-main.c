@@ -1,4 +1,4 @@
-#include <stdio.h>
+
 #include "main.h"
 /**
  * main - Entry point
@@ -10,7 +10,7 @@
 {
 	int i;
 
-	i = o;
+	i = 0;
 
 	positive_or_negative(i);
 
