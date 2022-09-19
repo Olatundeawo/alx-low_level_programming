@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_rev - a function that prints a string, in reversed.
+ * rev_string - a function that prints a string, in reversed.
  *
  * @s: pointer argument.
  */
@@ -19,7 +19,7 @@
 
 	for (i = 0; i < len; i++;)
 	{
-	rev[i] = s[j];
+	rev[i] = *s[j];
 	j--;
 	}
 	_putchar(rev);
