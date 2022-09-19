@@ -5,23 +5,21 @@
  * @s: pointer argument.
  */
 
-	void print_rev(char *s)
+void print_rev(char *s)
 {
-	int i,j, len = 0;
-	char rev[];
+	int count = 0;
 
-	while (s[len] != '\0')
+	while (*s != '\0')
 	{
-		len++;
+		s++;
+		count++;
 	}
 
-	j = len - 1;
-
-	for (i = 0; i < len; i++;)
+	while (count > 0)
 	{
-	rev[i] = s[j];
-	j--;
+		s--;
+		_putchar(*s);
+		count--;
 	}
-	_putchar(rev);
 	_putchar('\n');
-}
+}}
