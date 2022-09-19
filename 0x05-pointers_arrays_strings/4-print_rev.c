@@ -13,7 +13,7 @@
 
 		count++;
 
-	for (index = count -1; index >= 0; index--)
+	for (index = count - 1; index >= 0; index--)
 {
 	_putchar(s[index]);
 }
