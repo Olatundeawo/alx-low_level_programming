@@ -11,11 +11,9 @@
 {
 	int count = 0;
 
-	if (*s != '\0')
+	while (*s != '\0')
 	{
 		count++;
-	}else
-	{
 		s++;
 	}
 
