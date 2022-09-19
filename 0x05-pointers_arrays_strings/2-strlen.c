@@ -13,8 +13,8 @@
 
 	if (*s != '\0')
 	{
-		s++;
 		count++;
+		s++;
 	}
 
 	return (count);
