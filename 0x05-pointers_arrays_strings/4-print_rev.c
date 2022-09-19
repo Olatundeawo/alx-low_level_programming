@@ -9,9 +9,11 @@
 {
 	int count = 0, index;
 
-	while (s[index++])
-
+	while (*s != '\0')
+	{
 		count++;
+		s++;
+	}
 
 	for (index = count - 1; index >= 0; index--)
 {
