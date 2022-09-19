@@ -5,7 +5,7 @@
  * @s: pointer argument.
  */
 
-	void print_rev(char *s)
+	void rev_string(char *s)
 {
 	int i,j, len = 0;
 	char rev[];
