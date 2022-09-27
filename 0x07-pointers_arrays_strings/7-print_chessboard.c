@@ -1,11 +1,10 @@
 #include "main.h"
 /**
- * print_chessboard - unction that prints the chessboard.
- *
- * @a: arrays
- *
- * Return: null
+ * *print_chessboard - description
+ * @a: board
+ * Return: void
  */
+
 
 void print_chessboard(char (*a)[8])
 {
