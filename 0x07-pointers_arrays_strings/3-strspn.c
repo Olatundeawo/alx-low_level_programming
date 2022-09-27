@@ -5,7 +5,7 @@
  * @s: character to search
  * @accept: prefix to march
  *
- * return: numbers of byte
+ * Return: numbers of byte
  */
 
 unsigned int _strspn(char *s, char *accept)
@@ -14,7 +14,7 @@ unsigned int _strspn(char *s, char *accept)
 
 	for (i = 0; s[i] >= '\0'; i++)
 	{
-		for (j =0; accept[j] >= '\0'; j++)
+		for (j = 0; accept[j] >= '\0'; j++)
 		{
 			if (s[i] == accept[j])
 			{
@@ -22,7 +22,8 @@ unsigned int _strspn(char *s, char *accept)
 				break;
 			}
 		}
-		if else (ccept[j] == '\0')
+
+		if else(accept[j] == '\0')
 
 			break;
 	}
