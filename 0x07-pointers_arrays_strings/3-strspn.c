@@ -25,8 +25,10 @@ unsigned int _strspn(char *s, char *accept)
 		}
 
 		if else(accept[j] == '\0')
+		{
 
 			break;
+		}
 	}
 
 	return (byte);
