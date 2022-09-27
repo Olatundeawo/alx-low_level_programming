@@ -11,7 +11,7 @@
 
 unsigned int _strspn(char *s, char *accept)
 {
-	int i, j, byte = 0;
+	int i, j, bbyte = 0;
 
 	for (i = 0; s[i] >= '\0'; i++)
 	{
@@ -23,14 +23,10 @@ unsigned int _strspn(char *s, char *accept)
 				break;
 			}
 		}
-
-		if else(accept[j] == '\0')
+		if (accept[j] == '\0')
 		{
-
 			break;
 		}
 	}
-
 	return (byte);
-
 }
