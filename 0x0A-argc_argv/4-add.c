@@ -1,12 +1,11 @@
 #include "main.h"
-#include <stdlib.h>
 /**
- * main - fu
+ * main - function that adds positive numbers
  *
- * @argc: first
- * @argv: sec
+ * @argc: int
+ * @argv: array
  *
- * Return: null
+ * Return: 0 or 1;
  */
 
 int main(int argc, char *argv[])
@@ -15,12 +14,12 @@ int main(int argc, char *argv[])
 
 	for (i = 1; i < argc; i++)
 	{
-		for (digit = 0; argv[i][digit]; digit++)
+		for (digit = 0, argv[i][digit]; digit++)
 		{
 			if (argv[i][digit] < '0' || argv[i][digit] > '9')
 			{
-			printf("Error\n");
-			return (1);
+				printf("Error\n");
+				return (1);
 			}
 		}
 
@@ -28,6 +27,6 @@ int main(int argc, char *argv[])
 	}
 
 	printf("%i\n", sum);
-		
+
 	return (0);
 }
