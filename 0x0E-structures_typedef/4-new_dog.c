@@ -33,7 +33,7 @@ int strlen(char *str)
 
 char *strcpy(char *dest, char *src)
 {
-	int i;
+	int i = 0;
 
 	for (i = 0; src[i]; i++)
 	{
