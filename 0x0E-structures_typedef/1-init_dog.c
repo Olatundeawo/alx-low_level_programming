@@ -1,7 +1,7 @@
 #include "dog.h"
 
 /**
- *int _dog - dog
+ *init_dog - dog
  *
  * @d: initialze variable
  * @name: name
