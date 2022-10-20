@@ -12,7 +12,7 @@
  * @str: character
  */
 
-typedef struct Node
+typedef struct list_s
 {
 	char *str;
 	unsigned int data;
