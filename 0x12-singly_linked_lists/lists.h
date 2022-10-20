@@ -7,7 +7,7 @@
 /**
  * struct Node - data structure
  *
- * @data: data
+ * @len: data
  * @next: address
  * @str: character
  */
