@@ -12,7 +12,7 @@
  *
  */
 
-struct Node
+typedef struct Node
 {
 	char *str;
 	unsigned int data;

@@ -4,7 +4,7 @@
  * print_list - function to print the para list
  *
  * @h: para to be printed
- * Return: h
+ * Return: elem
  */
 
 
