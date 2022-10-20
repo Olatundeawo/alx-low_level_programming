@@ -5,7 +5,7 @@
 #include <stdlib.h>
 
 /**
- * struct Node - data structure
+ * struct list_s - data structure
  *
  * @len: data
  * @next: address
