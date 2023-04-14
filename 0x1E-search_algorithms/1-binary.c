@@ -8,7 +8,7 @@
  * Return: recursilvey the binary function or - 1
  */
 
-int binary_search_recursive(int *arr, size_t r, size_t l, int value)
+int binary_search_recursive(int *arr, size_t l, size_t r, int value)
 {
 	 size_t mid;
 
